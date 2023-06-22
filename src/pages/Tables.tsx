@@ -1,18 +1,16 @@
 import Breadcrumb from '../components/Breadcrumb';
-import TableOne from '../components/TableOne';
-import TableThree from '../components/TableThree';
-import TableTwo from '../components/TableTwo';
 import DefaultLayout from '../layout/DefaultLayout';
+import ContractList from "../components/ContractList";
 
 const Tables = () => {
   return (
     <DefaultLayout>
-      <Breadcrumb pageName="Tables" />
+      <Breadcrumb pageName="계약" />
 
       <div className="flex flex-col gap-10">
-        <TableOne />
-        <TableTwo />
-        <TableThree />
+        {/*<TableOne />*/}
+        <ContractList />
+        {/*<TableThree />*/}
       </div>
     </DefaultLayout>
   );
